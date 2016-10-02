@@ -1,0 +1,35 @@
+html{
+	background: #f6f4f9;
+	padding:0.8rem;
+}
+
+section{
+	padding: 50px 0;
+}
+
+.tile{
+	display: block;
+	padding: 2rem;
+	margin-bottom: 2rem;
+}
+
+.pipe{
+  display: inline-block;
+  clear: both;
+  height: 8px;
+  width: 60px;
+  margin: 0.6rem 0;
+}
+
+footer{
+	height: 100px;
+	padding-top: 40px;
+}
+
+.tile.nomargin{
+  margin-bottom: 0;
+}
+
+.content img{
+	margin-bottom: 2rem;
+}

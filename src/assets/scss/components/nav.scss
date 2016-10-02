@@ -1,0 +1,36 @@
+nav{
+	display: inline-block;
+	float: left;
+}
+
+nav ul{
+  margin:0;
+  padding: 0;
+
+  li{
+	display: inline;
+	list-style-type: none;
+
+	a, a:visited{
+		color: $white;
+		padding: 0;
+		font-weight: bold;
+		font-size: 0.8rem; 
+
+		&:after{
+			content: '/';
+			padding: 0 5px 0 10px;
+			color: $pink;
+		}
+
+	}
+
+	&:last-child a:after{
+		content: '';
+	}	
+
+	a:hover, a:focus{
+		color: $cyan;
+	}
+  }
+}

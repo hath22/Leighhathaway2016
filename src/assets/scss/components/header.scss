@@ -1,0 +1,58 @@
+header{
+	height: 300px;
+	background-image: none; 
+	background-position: 0 0;
+	background-size: cover;
+}
+
+header h2{
+	color: $white;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.header-intro{
+	margin-top: 50px;
+}
+
+
+.home header{
+	height: 750px;
+	background-image: url('../img/header-bg.png'); 
+	background-position: 0 0;
+	background-size: cover;
+}
+
+.home .header-intro{
+	margin-top: 50px;
+}
+
+.bg--foosball{
+	background: $purple url('../img/banner-work-foosball.jpg') no-repeat 0 0;
+	background-size: cover;
+}
+
+.bg--vewh{
+	background: $purple url('../img/banner-work-vewh.jpg') no-repeat 0 0;
+	background-size: cover;
+}
+
+.bg--dfrt{
+	background: $purple url('../img/banner-work-dfrt.jpg') no-repeat 0 0;
+	background-size: cover;
+}
+
+.bg--levelcrossing{
+	background: $purple url('../img/banner-work-levelcrossing.jpg') no-repeat 0 0;
+	background-size: cover;
+}
+
+.bg--melbipsum{
+	background: $purple url('../img/banner-work-melbipsum.jpg') no-repeat 0 0;
+	background-size: cover;
+}
+
+.bg--safer{
+	background: $purple url('../img/banner-work-safer.jpg') no-repeat 0 0;
+	background-size: cover;
+}

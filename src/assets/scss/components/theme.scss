@@ -1,0 +1,73 @@
+html{
+  color: $white;
+}
+
+/* -- Section colours -- */
+
+.tile{
+  color: $white;
+}
+
+.bg--darkpurple{
+  background-color: $darkpurple;
+}
+
+.bg--purple{
+  background-color: $purple;
+}
+
+.bg--cyan{
+  background-color: $cyan;
+  color: $darkpurple;
+}
+
+.bg--grey{
+  background-color: $grey;
+  color: $darkpurple;
+}
+
+.black{
+  background-color: $black;
+  color: $white;
+}
+
+/* -- Tile colours -- */
+
+
+.bg--darkpurple .tile{
+    background-color: $purple;
+}
+
+.bg--purple .tile{
+    background-color: $darkpurple;
+}
+
+.bg--cyan .tile{
+    background-color: $purple;
+}
+
+.bg--grey .tile{
+    background-color: $purple;
+}
+
+.tile.pink{
+  background-color: $pink;
+}
+
+a.tile:hover{
+  background-color: $pink;
+  color: $white;
+}
+
+
+
+/* -- Misc colours -- */
+
+.pipe{
+  background-color: $cyan;
+
+  &.white{
+      background-color: $white;
+  }
+}
+
