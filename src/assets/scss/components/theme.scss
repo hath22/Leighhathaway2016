@@ -19,6 +19,9 @@ html{
 .bg--cyan{
   background-color: $cyan;
   color: $darkpurple;
+
+  h2, h1 a{color:$darkpurple}
+  .tile h2{color:$white}
 }
 
 .bg--grey{
@@ -64,7 +67,10 @@ a.tile:hover{
   color: $white;
 }
 
-
+.bg--darkpurple .tile.current{
+  border: 1px solid $purple;
+  background: $darkpurple;
+}
 
 /* -- Misc colours -- */
 

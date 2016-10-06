@@ -45,3 +45,16 @@ footer{
 .content img{
 	margin-bottom: 2rem;
 }
+
+
+#contact img{
+	margin-top: 180px;
+
+	@include breakpoint(medium down) {
+		margin-top: 60px;
+	}
+
+	@include breakpoint(small down) {
+		display: none;
+	}
+}
